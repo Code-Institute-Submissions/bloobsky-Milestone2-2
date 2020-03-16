@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+
+/* body */
+
+body {
+    background-color: #E7DFE8;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* container */
+
+.container {
+    padding-top: 150px;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #FEFEFF;
+    border: 0;
+    text-align: center;
+    float: none;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* main */
+
+.main {}
+
+/* map */
+
+div#map {
+    padding-top: 400px;
+    min-height: 460px;
+}
+
+.map {}
+
+.map p {
+    text-align: center;
+    float: center;
+}
+
+/* emergency */
+
+#emergency {}
+
+#emergency p {
+    padding-bottom: 10px;
+}
+
+/* faq */
+
+.faq {}
+
+/* controls */
+
+.control {
+
+    text-align: center;
+}
+
+.control h5 {
+    text-align: center;
+}
+
+.control2 {
+    padding-top: 30px;
+}
+
+/* footer */
+
+footer {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer a {
+    color: #243e36;
+}
+
+.footer a:hover {
+    color: #25291c;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+/* plan */
+
+.card-body {
+    background-color: #E7DFE8;
+}
+
+.lightoff {
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    border-color: black;
+    background-color: gray;
+
+}
+
+.lighton {
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    border-color: black;
+    background-color: yellow;
+}
