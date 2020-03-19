@@ -1,9 +1,10 @@
 #######################################################
 
 # Version Control
-This Project uses Semantic Versioning (https://semver.org/)
+This Project uses Semantic Versioning (https://semver.org/)<br>
 
-->0.0.5 -- Add ackonwledgement to README.md file
+-0.0.6 -- Added screenshot.jpg file and testing write-up <br>
+->0.0.5 -- Add acknowledgement to README.md file<br>
 ->0.0.4 -- Fixed bug on FAQ subsite when menu doesn't show up in proper width property.<br>
 ->0.0.3 -- Readme.md file updated for Version Control<br>
 ->0.0.2 -- Fixed Typos & Mispelling<br>
@@ -35,7 +36,22 @@ Website was tested using 3 devices: Desktop PC, Tablet (Samsung a300) and smartp
 HTML and CSS Validator were also used in place.
 
 1) Thermostat setup was tested and it only allows user to use number from 5 to 25 (both inclusive) and verifies the input, other input would return an error to the user.
-2) Jasmine need some more information <!>
+
+# Testing write-up
+
+As an example we are going to test Emergency function<br>
+
+Steps Involved:<br>
+
+1) Click on 'Emergency' Link located on Navigation Bar<br>
+2) Click on 'Panic Button" located at the bottom of the page<br>
+3) Pop-up window should appear and gives the user 2 options to choose: Close and Send Emergency<br>
+4a) Click 'Close' to dismiss the window<br>
+4b) Click 'Send Emergency" to inform the headquarter about some problems with the system.<br>
+5) Click 'Close' to close the pop-up window<br>
+
+Screenshot confirming that script is working:<br>
+<img src="img/screenshot.jpg" alt="screenshot">
 
 # Deployement
 
