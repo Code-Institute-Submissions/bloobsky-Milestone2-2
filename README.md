@@ -1,5 +1,12 @@
 #######################################################
 
+# Version Control
+This Project uses Semantic Versioning (https://semver.org/)
+
+->0.0.3 -- Readme.md file updated for Version Control
+->0.0.2 -- Fixed Typos & Mispelling
+->0.0.1 -- Initial Commit
+
 # Project Info
 
 HiVE Cluster - Smart Home Interface is a fully functional website that enables user to take control of his/her house.
