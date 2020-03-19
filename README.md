@@ -3,7 +3,7 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
 
-->0.0.8 -- Fixed mispelling in plan.js
+->0.0.8 -- Fixed misspelling in plan.js
 ->0.0.7 -- Fixed .css file for CSSValidator
 ->0.0.6 -- Added screenshot.jpg file and testing write-up <br>
 ->0.0.5 -- Add acknowledgement to README.md file<br>
