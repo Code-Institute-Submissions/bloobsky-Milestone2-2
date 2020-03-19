@@ -3,6 +3,7 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)
 
+->0.0.5 -- Add ackonwledgement to README.md file
 ->0.0.4 -- Fixed bug on FAQ subsite when menu doesn't show up in proper width property.<br>
 ->0.0.3 -- Readme.md file updated for Version Control<br>
 ->0.0.2 -- Fixed Typos & Mispelling<br>
@@ -61,7 +62,8 @@ HiVE Cluster logo was created in Adobe Illustrator. <br>
 # Acknowledgements
 
 I received inspiration from CodeInstitute (www.codeinstitute.net)<br/>
-Coolors.co - website was used to generate colour scheme.
+Privacy Policy was generated using www.iubenda.com<br/>
+Coolors.co - website was used to generate colour scheme.<br/>
 AWS Cloud9 was used to entirely written all the code for the proposed project.
 
 
