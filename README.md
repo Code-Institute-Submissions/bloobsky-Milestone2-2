@@ -3,9 +3,10 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)
 
-->0.0.3 -- Readme.md file updated for Version Control
-->0.0.2 -- Fixed Typos & Mispelling
-->0.0.1 -- Initial Commit
+->0.0.4 -- Fixed bug on FAQ subsite when menu doesn't show up in proper width property.<br>
+->0.0.3 -- Readme.md file updated for Version Control<br>
+->0.0.2 -- Fixed Typos & Mispelling<br>
+->0.0.1 -- Initial Commit<br>
 
 # Project Info
 
