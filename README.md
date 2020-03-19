@@ -3,7 +3,8 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
 
--0.0.6 -- Added screenshot.jpg file and testing write-up <br>
+->0.0.7 -- Fixed .css file for CSSValidator
+->0.0.6 -- Added screenshot.jpg file and testing write-up <br>
 ->0.0.5 -- Add acknowledgement to README.md file<br>
 ->0.0.4 -- Fixed bug on FAQ subsite when menu doesn't show up in proper width property.<br>
 ->0.0.3 -- Readme.md file updated for Version Control<br>
