@@ -74,7 +74,9 @@ div#map {
 
 /* faq */
 
-.faq {}
+.faq {
+    width: 100%;
+}
 
 /* controls */
 
@@ -114,6 +116,7 @@ footer {
 
 .card-body {
     background-color: #E7DFE8;
+    width: 100%;
 }
 
 .lightoff {
