@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(button).click(function() {
+    $("button").click(function() {
         // changing attributes of the buttons
         if ($(this).text() == "OPEN") {
             $(this).text("CLOSE");
@@ -11,11 +11,11 @@ $(document).ready(function() {
         }
         else if ($(this).text() == "SET") {
             $(this).text("UNSET");
-            $('#alarm').attr('src', 'img/lock.svg');
+            $('#alarma').attr('src', 'img/lock.svg');
         }
         else if ($(this).text() == "UNSET") {
             $(this).text("SET");
-            $('#alarm').attr('src', 'img/unlock.svg');
+            $('#alarma').attr('src', 'img/unlock.svg');
         }
         else if ($(this).text() == "LOCK") {
             $(this).text("UNLOCK");
