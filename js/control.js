@@ -36,7 +36,7 @@ $(document).ready(function() {
             $("span").text($("input:text").val()).show();
             return;
         }
-        $("span").text("Temperature should be set withing 5 to 25 degrees.").show().fadeOut(5000);
+        $("span").text("Temperature should be set within 5 to 25 degrees.").show().fadeOut(5000);
         event.preventDefault();
     });
 
