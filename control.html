@@ -30,7 +30,7 @@
                     <li class="nav-item "><a class="nav-link" href="faq.html">Faq</a></li>
                 </ul>
             </div>
-            <img src="img/logo.jpg" width="200px" height="100px">
+            <img src="img/logo.jpg" alt="logo" width="200" height="100">
         </nav>
     </div>
 
@@ -49,17 +49,17 @@
             </div>
             <div class="col sm-12 md-6 lg-6">
                 <h3>Control Panel</h3><br>
-                <h6>Garage <button id="button" class="btn btn-success" id="garage">OPEN</button></h6>
-                <h6>Lockout <button id="button" class="btn btn-success" id="lockout">UNLOCK</button></h6>
-                <h6>Alarm <button id="button" class="btn btn-success" id="alarm">UNSET</button></h6>
-                <h6>Thermostat
-                    <form action="javascript:alert( 'Temperature set correctly' );">
-                        <div>
-                            <input type="text">
-                            <input type="submit" value="Set">
-                        </div>
-                    </form>
-                </h6>
+                <h6>Garage <button type="button" class="btn btn-success" id="garage">OPEN</button></h6>
+                <h6>Lockout <button type="button" class="btn btn-success" id="lockout">UNLOCK</button></h6>
+                <h6>Alarm <button type="button" class="btn btn-success" id="alarm">UNSET</button></h6>
+                <h6>Thermostat </h6>
+
+                <form action="javascript:alert( 'Temperature set correctly' );">
+                    <div>
+                        <input type="text">
+                        <input type="submit" value="Set">
+                    </div>
+                </form>
 
             </div>
         </div>
@@ -72,10 +72,10 @@
         <a href="mailto:mattie@jakusz.org">mattie@jakusz.org</a>
     </footer>
     <!-- scripts -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/control.js"></script>
+    <script src="js/control.js"></script>
 </body>
 
 </html>
