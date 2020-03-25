@@ -33,6 +33,11 @@ Page is divided into 6 anchor point and gives user ability to go through differe
 5) Map - withing using of Google Maps would return the location of your home ()
 6) FAQ - Frequently Asked Questions for general help or enquires.
 
+a) Bill Smith wanted to remotely control lightning in his home. He always forgot to trip a switch when he leaves his home. To accomplish that he can use my website to remotely and independently control lighting in every room.
+b) Jonathan Mayers was tired of forgetting to switch on the alarm. He usually has to come back from time to time to set the alarm up. For the rescue come my website. He can do it now with on simply click on the website.
+c) Anna Jones was looking for a thermostat setup. She usually come back to her cold home and needed to set it up manually. The system proposed enables her that function to set up thermostat for designated temperature.
+
+
 # Testing
 
 Website was tested using 3 devices: Desktop PC, Tablet (Samsung a300) and smartphone (Samsung s8). Website was also tested using Inspect function in Google Chrome<br/>
@@ -42,7 +47,7 @@ HTML and CSS Validator were also used in place.
 
 # Testing write-up
 
-As an example we are going to test Emergency function<br>
+Test#1 As an example we are going to test Emergency function<br>
 
 Steps Involved:<br>
 
@@ -56,11 +61,50 @@ Steps Involved:<br>
 Screenshot confirming that script is working:<br>
 <img src="img/screenshot.jpg" alt="screenshot">
 
+Test#2 Control of lighting at home:<br>
+
+Steps Involved:<br>
+
+1) Click on 'House Plan' link located on Navigation Bar<br>
+2) Plan of house showes up and within one-click of a mouse button user can trigger it on or off.<br>
+3) Gray background on the room represents light in off position<br>
+4) Yellow background on the room represents light in on position<br>
+
+Screenshot confirming that it is working:<br>
+<img src="img/screenshot2.jpg" alt="screenshot2"><br>
+
+Test#3 Using Thermostat to set up desired temperature<br>
+
+Steps Involved:<br>
+
+1) Click on 'Controls' link located on Navigation Bar<br>
+2) On the Control Panel on the right side of a page there is a field that can take any value from 5C degrees to 25C degrees.<br>
+3a) If the value would be incorrect user would get an error message and the thermostat would not be set.<br>
+3b) If the value is correct user would get informed that it is setup correctly<br>
+
+
+Screenshot confirming 2 possible outcomes:<br>
+<img src="img/screenshot3.jpg" alt="screenshot3"><br>
+<img src="img/screenshot4.jpg" alt="screenshot4"><br>
+
+
+
+
 # Deployement
 
 Project is deployed @ GitHub. <br/>
 Github was used in deployement process as it is integrated, simple and ther is no need to use additional services.<br/>
 It also containt Version Control and everything is uploaded using terminal commands (git)<br/>
+
+How it is done ?
+
+1) Open www.github.com.
+2) Login with your credentials
+3) On the Navigation Bar in the repository you would like to deploy look for 'settings' link.
+4) Scroll down the page and look for 'GitHub Pages'
+5) Under the source section select 'master branch' option
+6) Message should appear 'Your site is ready to be published at https://$YourLogin.github.io/$RepositoryName/
+7) Your website is deployed now.
 
 # Technologies,Programming Languages and APIs
 
