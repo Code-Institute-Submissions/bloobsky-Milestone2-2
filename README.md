@@ -3,6 +3,7 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
 
+->0.0.10 -- Added User Experience Stories<br>
 ->0.0.9 -- Fixed * .html files for HTMLValidator<br>
 ->0.0.8 -- Fixed misspelling in plan.js<br>
 ->0.0.7 -- Fixed .css file for CSSValidator<br>
@@ -96,15 +97,15 @@ Project is deployed @ GitHub. <br/>
 Github was used in deployement process as it is integrated, simple and ther is no need to use additional services.<br/>
 It also containt Version Control and everything is uploaded using terminal commands (git)<br/>
 
-How it is done ?
+How it is done ? <br>
 
-1) Open www.github.com.
-2) Login with your credentials
-3) On the Navigation Bar in the repository you would like to deploy look for 'settings' link.
-4) Scroll down the page and look for 'GitHub Pages'
-5) Under the source section select 'master branch' option
-6) Message should appear 'Your site is ready to be published at https://$YourLogin.github.io/$RepositoryName/
-7) Your website is deployed now.
+1) Open www.github.com. <br>
+2) Login with your credentials <br>
+3) On the Navigation Bar in the repository you would like to deploy look for 'settings' link. <br>
+4) Scroll down the page and look for 'GitHub Pages'<br>
+5) Under the source section select 'master branch' option<br>
+6) Message should appear 'Your site is ready to be published at https://$YourLogin.github.io/$RepositoryName/<br>
+7) Your website is deployed now.<br>
 
 # Technologies,Programming Languages and APIs
 
