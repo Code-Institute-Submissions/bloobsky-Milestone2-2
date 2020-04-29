@@ -3,6 +3,7 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
 
+->0.0.11 -- Fixed Issue with EmaiLJS (Panic button) function
 ->0.0.10 -- Added User Experience Stories<br>
 ->0.0.9 -- Fixed * .html files for HTMLValidator<br>
 ->0.0.8 -- Fixed misspelling in plan.js<br>
