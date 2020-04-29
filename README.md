@@ -2,7 +2,7 @@
 
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
-
+->0.0.13 -- Fixed Javascript code '==' changed for '==='
 ->0.0.12 -- Fixed issue with logo not displaying properly on smaller devices
 ->0.0.11 -- Fixed Issue with EmaiLJS (Panic button) function
 ->0.0.10 -- Added User Experience Stories<br>

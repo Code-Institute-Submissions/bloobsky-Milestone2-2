@@ -3,7 +3,7 @@ $(document).ready(function() {
 
     $("#groundfloor").click(function() {
         // changing attributes of the buttons
-        if ($(this).text() == "Show ground floor") {
+        if ($(this).text() === "Show ground floor") {
             $(this).text("Hide ground floor");
         }
 
@@ -16,11 +16,11 @@ $(document).ready(function() {
     });
     $("#firstfloor").click(function() {
         // changing attributes of the buttons
-        if ($(this).text() == "Show first floor") {
+        if ($(this).text() === "Show first floor") {
             $(this).text("Hide first floor");
         }
 
-        else if ($(this).text() == "Hide first floor") {
+        else if ($(this).text() === "Hide first floor") {
             $(this).text("Show first floor");
         }
         else {
