@@ -38,9 +38,11 @@ Page is divided into 6 anchor point and gives user ability to go through differe
 5) Map - withing using of Google Maps would return the location of your home ()
 6) FAQ - Frequently Asked Questions for general help or enquires.
 
-a) Bill Smith wanted to remotely control lightning in his home. He always forgot to trip a switch when he leaves his home. To accomplish that he can use my website to remotely and independently control lighting in every room.<br>
-b) Jonathan Mayers was tired of forgetting to switch on the alarm. He usually has to come back from time to time to set the alarm up. For the rescue come my website. He can do it now with on simply click on the website.<br>
-c) Anna Jones was looking for a thermostat setup. She usually come back to her cold home and needed to set it up manually. The system proposed enables her that function to set up thermostat for designated temperature.<br>
+As a housemaid, I want to remotely control lighting so I can check it if i forgot to switch it on or off when I am away.<br>
+As a remotely worker I am not in my house for 80% of my time, I want to set up the alarm, so that I do not have to be worried if I had it turned on.<br>
+As a home owner, I want to set up the heating when I am not at home so I can set it up when still at work and come to warm house.<br>
+As a car driver I want to remotely open my garage, so I don't have to wait for it to be opened while I am on driveway.<br>
+
 
 
 # Testing
