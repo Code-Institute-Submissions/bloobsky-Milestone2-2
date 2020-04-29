@@ -132,3 +132,20 @@ footer {
     border-color: black;
     background-color: yellow;
 }
+
+
+/* media queries */
+
+#graphiclogo {
+    width: 200px;
+    height: 100px;
+}
+
+@media (max-width: 568px) {
+    #graphiclogo {
+    width: 150px;
+    height: 75px;
+
+
+}
+    }
