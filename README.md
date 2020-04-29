@@ -2,9 +2,11 @@
 
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
-->0.0.13 -- Fixed Javascript code '==' changed for '==='
-->0.0.12 -- Fixed issue with logo not displaying properly on smaller devices
-->0.0.11 -- Fixed Issue with EmaiLJS (Panic button) function
+->0.0.15 -- Deployement section in README.md file expanded<br>
+->0.0.14 -- Changed titles on subpages</br>
+->0.0.13 -- Fixed Javascript code '==' changed for '==='<br>
+->0.0.12 -- Fixed issue with logo not displaying properly on smaller devices<br>
+->0.0.11 -- Fixed Issue with EmaiLJS (Panic button) function<br>
 ->0.0.10 -- Added User Experience Stories<br>
 ->0.0.9 -- Fixed * .html files for HTMLValidator<br>
 ->0.0.8 -- Fixed misspelling in plan.js<br>
@@ -36,9 +38,9 @@ Page is divided into 6 anchor point and gives user ability to go through differe
 5) Map - withing using of Google Maps would return the location of your home ()
 6) FAQ - Frequently Asked Questions for general help or enquires.
 
-a) Bill Smith wanted to remotely control lightning in his home. He always forgot to trip a switch when he leaves his home. To accomplish that he can use my website to remotely and independently control lighting in every room.
-b) Jonathan Mayers was tired of forgetting to switch on the alarm. He usually has to come back from time to time to set the alarm up. For the rescue come my website. He can do it now with on simply click on the website.
-c) Anna Jones was looking for a thermostat setup. She usually come back to her cold home and needed to set it up manually. The system proposed enables her that function to set up thermostat for designated temperature.
+a) Bill Smith wanted to remotely control lightning in his home. He always forgot to trip a switch when he leaves his home. To accomplish that he can use my website to remotely and independently control lighting in every room.<br>
+b) Jonathan Mayers was tired of forgetting to switch on the alarm. He usually has to come back from time to time to set the alarm up. For the rescue come my website. He can do it now with on simply click on the website.<br>
+c) Anna Jones was looking for a thermostat setup. She usually come back to her cold home and needed to set it up manually. The system proposed enables her that function to set up thermostat for designated temperature.<br>
 
 
 # Testing
@@ -94,6 +96,16 @@ Screenshot confirming 2 possible outcomes:<br>
 
 
 # Deployement
+
+Using Git Command Line to upload to a repository<br>
+
+Type in terminal these commands:<br>
+<code>git init</code> to initialize a new repository<br>
+<code>git add README.md</code> to add README.md file to repository<br>
+<code>git commit -m "Initial commit"</code> to add a message for first commitement.<br>
+<code>git remote add origin https://github.com/bloobsky/your_repository_name.git</code> to assign repository</br>
+<code>git push -u origin master</code> to upload files to the repository<br>
+<br><br>
 
 Project is deployed @ GitHub. <br/>
 Github was used in deployement process as it is integrated, simple and ther is no need to use additional services.<br/>
