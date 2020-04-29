@@ -3,6 +3,7 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
 
+->0.0.18 -- Added more UX user stories
 ->0.0.17 -- Simplified jQuery toggling lights in rooms<br>
 ->0.0.16 -- User Stories updated<br>
 ->0.0.15 -- Deployement section in README.md file expanded<br>
@@ -45,6 +46,8 @@ As a housemaid, I want to remotely control lighting so I can check it if i forgo
 As a remotely worker I am not in my house for 80% of my time, I want to set up the alarm, so that I do not have to be worried if I had it turned on.<br>
 As a home owner, I want to set up the heating when I am not at home so I can set it up when still at work and come to warm house.<br>
 As a car driver I want to remotely open my garage, so I don't have to wait for it to be opened while I am on driveway.<br>
+As a smarthome owner I want to add or remove room from house plans so it would display properly in order to turn on/off lights.<br>
+As a person with children I would like to be able to lock every door in my house so it would prevent potential assault/robbery<br>
 
 
 
