@@ -30,30 +30,10 @@ $(document).ready(function() {
     });
 
     // toggling lights
-    $("#hall").click(function() {
+    $(".lightoff").click(function() {
         $(this).toggleClass("lighton");
     });
-    $("#living-room").click(function() {
-        $(this).toggleClass("lighton");
-    });
-    $("#kitchen").click(function() {
-        $(this).toggleClass("lighton");
-    });
-    $("#office").click(function() {
-        $(this).toggleClass("lighton");
-    });
-    $("#bedroom1").click(function() {
-        $(this).toggleClass("lighton");
-    });
-    $("#bedroom2").click(function() {
-        $(this).toggleClass("lighton");
-    });
-    $("#ensuite").click(function() {
-        $(this).toggleClass("lighton");
-    });
-    $("#bathroom").click(function() {
-        $(this).toggleClass("lighton");
-    });
+   
 
 
 });

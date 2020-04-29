@@ -2,6 +2,9 @@
 
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
+
+->0.0.17 -- Simplified jQuery toggling lights in rooms<br>
+->0.0.16 -- User Stories updated<br>
 ->0.0.15 -- Deployement section in README.md file expanded<br>
 ->0.0.14 -- Changed titles on subpages</br>
 ->0.0.13 -- Fixed Javascript code '==' changed for '==='<br>
