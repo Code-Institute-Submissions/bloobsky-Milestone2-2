@@ -134,6 +134,13 @@ footer {
 }
 
 
+.close {
+  position: relative;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
 /* media queries */
 
 #graphiclogo {

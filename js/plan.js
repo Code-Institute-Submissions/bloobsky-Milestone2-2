@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
-
+	$('.close').dblclick(function(){
+		$(this).parent().remove()
+		});
+	
     $("#groundfloor").click(function() {
         // changing attributes of the buttons
         if ($(this).text() === "Show ground floor") {
@@ -33,7 +36,9 @@ $(document).ready(function() {
     $(".lightoff").click(function() {
         $(this).toggleClass("lighton");
     });
-   
+    $(".addRoom").dblclick(function() {
+        $("div > .lightoff").add("div > #ground").addClass("lightoff").text("New room");
+    });
 
 
 });

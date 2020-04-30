@@ -3,7 +3,8 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
 
-->0.0.18 -- Added more UX user stories
+->0.0.19 -- Added the ability to remove any room from the panel<br>
+->0.0.18 -- Added more UX user stories<br>
 ->0.0.17 -- Simplified jQuery toggling lights in rooms<br>
 ->0.0.16 -- User Stories updated<br>
 ->0.0.15 -- Deployement section in README.md file expanded<br>
