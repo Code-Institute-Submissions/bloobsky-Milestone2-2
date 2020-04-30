@@ -3,6 +3,7 @@
 # Version Control
 This Project uses Semantic Versioning (https://semver.org/)<br>
 
+->0.0.21 -- Automatically saves the house plan to local storage<br>
 ->0.0.20 -- Added functionality to add any room from the panel<br>
 ->0.0.19 -- Added the ability to remove any room from the panel<br>
 ->0.0.18 -- Added more UX user stories<br>
