@@ -1,9 +1,11 @@
 $(document).ready(function() {
 
-	$('.close').dblclick(function(){
-		$(this).parent().remove()
-		});
-	
+    // removing the room from the panel
+    $(document).on('click', '.close', function() {
+        $(this).parent().remove()
+    });
+
+
     $("#groundfloor").click(function() {
         // changing attributes of the buttons
         if ($(this).text() === "Show ground floor") {
@@ -29,16 +31,23 @@ $(document).ready(function() {
         else {
             console.log("Error");
         }
-
     });
 
     // toggling lights
-    $(".lightoff").click(function() {
+    $(document).on('dblclick', '.lightoff', function() {
         $(this).toggleClass("lighton");
     });
-    $(".addRoom").dblclick(function() {
-        $("div > .lightoff").add("div > #ground").addClass("lightoff").text("New room");
+
+
+    // adding the rooms
+    $(document).on('dblclick', '#addingRoom', function() {
+        var roomground = $("#fieldground").val();
+        $("#ground").append('<div class="lightoff"><div class="close">X</div>' + String(roomground) + '</div>')
     });
 
+    $(document).on('dblclick', '#addingRoom2', function() {
+        var roomground2 = $("#fieldfirst").val();
+        $("#first").append('<div class="lightoff"><div class="close">X</div>' + String(roomground2) + '</div>')
+    });
 
 });

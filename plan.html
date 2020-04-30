@@ -39,6 +39,8 @@
     <div class="container">
         <div class="row">
             <p>House plan enables you to control lightning in each room just by clicking on it </p>
+            <p>To remove the room from the panel simple double click on 'x' visible in a top right corner</p>
+            <p>To add a room for you smarthome use a create room form below and double click on "Create room" button</p>
         </div>
         <div class="row">
             <p>
@@ -46,10 +48,12 @@
                 <button class="btn btn-primary" id="firstfloor" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Show first floor</button>
             </p>
         </div>
-
+        <!-- house plan -->
         <div class="collapse multi-collapse" id="multiCollapseExample1">
             <div class="card card-body">
                 <div class="row">
+
+
                     <div class="col-sm d-flex extrapadding" id="ground">
                         <div class="lightoff">
                             <div class="close">X</div>
@@ -67,7 +71,7 @@
                             <div class="close">X</div>
                             Office
                         </div>
-                        <div class="addRoom">Add other room.</div>
+
                     </div>
                 </div>
             </div>
@@ -76,9 +80,8 @@
         <div class="collapse multi-collapse" id="multiCollapseExample2">
             <div class="card card-body">
                 <div class="row">
+
                     <div class="col-sm d-flex extrapadding" id="first">
-
-
                         <div class="lightoff">
                             <div class="close">X</div>
                             Bedroom
@@ -95,11 +98,24 @@
                             <div class="close">X</div>
                             Bathroom
                         </div>
-                        <div class="addRoom">Add other room.</div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm extrapadding">
+                <p>Ground Floor:</p>
+                <input type="text" id="fieldground" value="Enter new room"><br><br>
+                <button class="btn btn-success" id="addingRoom">Create room @ GroundFloor</button><br>
+            </div>
+            <div class="col-sm extrapadding">
+                <p>First Floor:</p>
+                <input type="text" id="fieldfirst" value="Enter new room"><br><br>
+                <button class="btn btn-success" id="addingRoom2">Create room @ FirstFloor</button>
+            </div>
+        </div>
+
+        <br>
 
 
     </div>
@@ -108,7 +124,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/plan.js"></script>
-    <script src="js/theme.js"></script>
 </body>
 
 </html>
