@@ -44,12 +44,12 @@
         </div>
         <div class="row">
             <p>
-                <a class="btn btn-primary" id="groundfloor" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Show ground floor</a>
-                <button class="btn btn-primary" id="firstfloor" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Show first floor</button>
+                <a class="btn btn-primary" id="groundfloor" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Hide ground floor</a>
+                <button class="btn btn-primary" id="firstfloor" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Hide first floor</button>
             </p>
         </div>
         <!-- house plan -->
-        <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="collapse show multi-collapse" id="multiCollapseExample1">
             <div class="card card-body">
                 <div class="row">
 
@@ -77,7 +77,7 @@
             </div>
         </div>
 
-        <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="collapse show multi-collapse" id="multiCollapseExample2">
             <div class="card card-body">
                 <div class="row">
 
@@ -105,12 +105,12 @@
         <div class="row">
             <div class="col-sm extrapadding">
                 <p>Ground Floor:</p>
-                <input type="text" id="fieldground" value="Enter new room"><br><br>
+                <input type="text" id="fieldground" placeholder="Enter new room"><br><br>
                 <button class="btn btn-success" id="addingRoom">Create room @ GroundFloor</button><br>
             </div>
             <div class="col-sm extrapadding">
                 <p>First Floor:</p>
-                <input type="text" id="fieldfirst" value="Enter new room"><br><br>
+                <input type="text" id="fieldfirst" placeholder="Enter new room"><br><br>
                 <button class="btn btn-success" id="addingRoom2">Create room @ FirstFloor</button>
             </div>
         </div>
